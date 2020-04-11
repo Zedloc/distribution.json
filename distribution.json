@@ -1,0 +1,985 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "630586481207017492",
+    "smallImageText": "Choir Bonding",
+    "smallImageKey": "seal-circle"
+},
+"java": {
+    "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+},
+  "rss": "<FILL IN MANUALLY>",
+  "servers": [
+    {
+      "id": "joinnerds-1.15.2",
+      "name": "Join Nerds Private Server",
+      "description": "Custom modded minecraft server",
+      "icon": "ftp://47.25.247.23:800/logo.png",
+      "version": "1.0.0",
+      "address": "joinnerds.apexmc.co",
+      "minecraftVersion": "1.15.2",
+      "discord": {
+        "shortId": "Discord",
+        "largeImageText": "Choir Bonding Discord Server",
+        "largeImageKey": "logo"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.15.2-31.1.41",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 183619,
+            "MD5": "ba9074a5aaa957ee9ac62a329956d49a",
+            "url": "ftp://47.25.247.23:800/repo/lib/net/minecraftforge/forge/1.15.2-31.1.41/forge-1.15.2-31.1.41.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.15.2-31.1.41",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10795,
+                "MD5": "a27c5c591789d673f4de5c3d2b88b1c8",
+                "url": "ftp://47.25.247.23:800/repo/versions/1.15.2-forge-31.1.41/1.15.2-forge-31.1.41.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.15.2-31.1.41:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 2181431,
+                "MD5": "ae8e58920581f7ddc205dfcf0e8e00ed",
+                "url": "ftp://47.25.247.23:800/repo/lib/net/minecraftforge/forge/1.15.2-31.1.41/forge-1.15.2-31.1.41-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.15.2-31.1.41:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 3565710,
+                "MD5": "f8f885ee06b679fde73e98d3eb589187",
+                "url": "ftp://47.25.247.23:800/repo/lib/net/minecraftforge/forge/1.15.2-31.1.41/forge-1.15.2-31.1.41-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.15.2:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "artifact": {
+                "size": 8333902,
+                "MD5": "9ae10222f494ed1f09e2b5fc6d38c958",
+                "url": "ftp://47.25.247.23:800/repo/lib/net/minecraft/client/1.15.2/client-1.15.2-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.15.2:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 7197612,
+                "MD5": "93e99cf6eab4a25f5811f821a59646c9",
+                "url": "ftp://47.25.247.23:800/repo/lib/net/minecraft/client/1.15.2/client-1.15.2-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.15.2-20200307.202953:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 10344805,
+                "MD5": "11a8c6cc176bfddfefe4d8c45444b3a2",
+                "url": "ftp://47.25.247.23:800/repo/lib/net/minecraft/client/1.15.2-20200307.202953/client-1.15.2-20200307.202953-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:7.2",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 114873,
+                "MD5": "26cf10dfd4729fd22fcae0694e041167",
+                "url": "ftp://47.25.247.23:800/repo/lib/org/ow2/asm/asm/7.2/asm-7.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:7.2",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 70051,
+                "MD5": "321121317a6c6221cc26e8f9ee97022f",
+                "url": "ftp://47.25.247.23:800/repo/lib/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:7.2",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 50283,
+                "MD5": "c7214695c379f25861500e576a1f8cea",
+                "url": "ftp://47.25.247.23:800/repo/lib/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:5.0.0-milestone.4",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 115810,
+                "MD5": "342c36323f24ee768929476020f66fa9",
+                "url": "ftp://47.25.247.23:800/repo/lib/cpw/mods/modlauncher/5.0.0/modlauncher-5.0.0-milestone.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.1.0",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 1759,
+                "MD5": "1adde27730734a786f461ed048d440a0",
+                "url": "ftp://47.25.247.23:800/repo/lib/cpw/mods/grossjava9hacks/1.1.0/grossjava9hacks-1.1.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:2.0.4-shadowed",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 444913,
+                "MD5": "4f0ebcd18b29d6a46de3a18de129dc62",
+                "url": "ftp://47.25.247.23:800/repo/lib/net/minecraftforge/accesstransformers/2.0.4/accesstransformers-2.0.4-shadowed.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:2.0.0-milestone.1-service",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 39764,
+                "MD5": "1ad12cee30fbfa9e75d766ebf43fcc28",
+                "url": "ftp://47.25.247.23:800/repo/lib/net/minecraftforge/eventbus/2.0.0-milestone.1/eventbus-2.0.0-milestone.1-service.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:2.0.0-milestone.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 19454,
+                "MD5": "54c63f0fa7cfed6332264db3578ed976",
+                "url": "ftp://47.25.247.23:800/repo/lib/net/minecraftforge/forgespi/2.0.0/forgespi-2.0.0-milestone.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:2.0.0-milestone.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 21780,
+                "MD5": "57e839114a3b043dea0f37baf63a820d",
+                "url": "ftp://47.25.247.23:800/repo/lib/net/minecraftforge/coremods/2.0.0/coremods-2.0.0-milestone.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "ftp://47.25.247.23:800/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.2",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "243fc0b7f1e509aaca3550c14d8f60af",
+                "url": "ftp://47.25.247.23:800/repo/lib/com/electronwill/night-config/core/3.6.2/core-3.6.2.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.2",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31152,
+                "MD5": "7b2339065e252b1c187d39351d84a09f",
+                "url": "ftp://47.25.247.23:800/repo/lib/com/electronwill/night-config/toml/3.6.2/toml-3.6.2.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "ftp://47.25.247.23:800/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.0",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 55051,
+                "MD5": "89e95013b11f347e48c0525965600404",
+                "url": "ftp://47.25.247.23:800/repo/lib/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.1",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 14941,
+                "MD5": "03ee150cc0123a522a70b5d5f1325232",
+                "url": "ftp://47.25.247.23:800/repo/lib/net/jodah/typetools/0.6.1/typetools-0.6.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.11.2",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 266283,
+                "MD5": "3f7ee51e3dd0830de799dae0b90243dd",
+                "url": "ftp://47.25.247.23:800/repo/lib/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.11.2",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1629585,
+                "MD5": "c8bd8b5c5aaaa07a3dcbf57de01c9266",
+                "url": "ftp://47.25.247.23:800/repo/lib/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "ftp://47.25.247.23:800/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "ftp://47.25.247.23:800/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.forgemod:anvilfix-1.1.2:0.0.0@jar",
+          "name": "AnvilFix-1.1.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 75366,
+            "MD5": "096342bffe3d8bc95c7e28bb7551a1a2",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/AnvilFix-1.1.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:appleskin:1.0.13@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 27324,
+            "MD5": "9caaf842ae2dcdea6af45bbb74bf5eb9",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/AppleSkin-mc1.15.2-forge-1.0.13.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:blur:1.1.0-1@jar",
+          "name": "Blur",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 366609,
+            "MD5": "d506346680509a991930e4e27e86f070",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/Blur-1.1.0-1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:controllermod:1.2.0@jar",
+          "name": "Controller Support",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 94837,
+            "MD5": "81a3c474c6e94227ea4d64b1d961dbc6",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/ControllerSupport-1.15.2-1.2.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:controlling:6.1.1@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 36880,
+            "MD5": "271cd6217334e66df9d3f9d32da7d320",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/Controlling-6.1.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:customwindowtitle:1.0.0@jar",
+          "name": "Custom Window Title",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 14587,
+            "MD5": "a34c15d4277a9b22af01416eb4f46132",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/CustomWindowTitle-1.15.2-v1.0.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:dangerousstonecutter:1.2.0@jar",
+          "name": "DangerousStoneCutter",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 7772,
+            "MD5": "376a838118aeb30c90bc0ca070b09349",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/DangerousStoneCutter-1.15.1-1.2.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:doggytalents:1.15.2.3@jar",
+          "name": "Doggy Talents",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 795820,
+            "MD5": "29eb66ffc1cc6c4c7d65cb4382398978",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/DoggyTalents-1.15.2-1.15.2.3.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:doubleslabs:2.2.1@jar",
+          "name": "Double Slabs",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 33532,
+            "MD5": "7a22c59a04ac8701aa0b8f64a65a0205",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/DoubleSlabs-1.15-2.2.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:edit_sign:2.0.0+7@jar",
+          "name": "Edit Sign",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 39545,
+            "MD5": "bda50e231cb7612f859965f97b2d361e",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/EditSign-1.15.2-2.0.0+7.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:hardcorerevival:4.0.0@jar",
+          "name": "Hardcore Revival",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 46606,
+            "MD5": "5f340d3da60da468d841d17a75679c37",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/HardcoreRevival_1.15.2-4.0.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:jrftl:1.1@jar",
+          "name": "JRFTL",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 13147,
+            "MD5": "675e00d59c63769e0cf77749c6677bcb",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/JRFTL+[1.15.2]-1.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:kleeslabs:8.0.0@jar",
+          "name": "KleeSlabs",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 38372,
+            "MD5": "6b5d68bab670151517cd2cb55eab3b62",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/KleeSlabs_1.15.2-8.0.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:morpheus:${version}@jar",
+          "name": "Morpheus",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 24547,
+            "MD5": "a53355fa3978361d6438f85a983c2475",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/Morpheus-1.15.2-4.2.50.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:pickupnotifier:1.1.2@jar",
+          "name": "Pick Up Notifier",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 27519,
+            "MD5": "6666372421b04cd4dabd24ee46c71827",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/PickUpNotifier-v1.1.2-1.15.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:quark:r2.1-230@jar",
+          "name": "Quark",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4782601,
+            "MD5": "7274d97d2ba5b0b72cd853a7b4b174df",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/Quark-r2.1-230.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:quarkoddities:1.15.2@jar",
+          "name": "Quark Oddities",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1852,
+            "MD5": "2b50248564c9a94ea9b56c97fd0e7563",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/QuarkOddities-1.15.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:reauth:3.8.0@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 25794,
+            "MD5": "5acca2eb59a46ad219944b68e2590cf4",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/ReAuth-1.14-3.8.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:soundfilters:0.13_for_1.15.2@jar",
+          "name": "Sound Filters",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 42462,
+            "MD5": "dea2decd97c769d2b4ee792ea7612f3e",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/SoundFilters-0.13_for_1.15.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:uppers:0.2.11@jar",
+          "name": "Uppers",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 31143,
+            "MD5": "52fe10f7b7fbd6c239e186f5d86725d6",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/Uppers-0.2.11.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:absentbydesign:1.15.2-1.0.6@jar",
+          "name": "Absent By Design Mod",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 444749,
+            "MD5": "c83546203a98032de7c05f787d1c4be7",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/absentbydesign-1.15.2-1.0.6.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:alphabetblocks:1.0.0@jar",
+          "name": "Alphabet Blocks",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 60833,
+            "MD5": "b5561ad3a4e691fac8a9912a9ecf1445",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/alphabetblocks-1.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:bedspreads:FORGE-1.15.2-3.0@jar",
+          "name": "Bedspreads",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 211336,
+            "MD5": "f75470b4dd74c29f31b85c3179d37984",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/bedspreads-FORGE-1.15.2-3.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:carpetstairsmod:1.4.2.0@jar",
+          "name": "Carpet Stairs Mod",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 170919,
+            "MD5": "23abaee0188b1aa04da9c4016a018e0f",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/carpetstairsmod-1.4.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:conduitsprdr:1.0@jar",
+          "name": "Conduits Prevent Drowned",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 7374,
+            "MD5": "ad6f6c42cf64d9c99e00d2d210bc5aa3",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/conduitsprdr_1.15.2-1.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:creativefirework:2.1.0@jar",
+          "name": "Creative Fireworks",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 42022,
+            "MD5": "d07a790f20a69c62c0261ccce11d0410",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/creativefirework-2.1.0-1.15.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:curioofundying:FORGE-1.15.2-3.0@jar",
+          "name": "Curio of Undying",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 26321,
+            "MD5": "d0967654ef4387f60989b2eec5379bd9",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/curioofundying-FORGE-1.15.2-3.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:curios:FORGE-1.15.2-2.0.2.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 183431,
+            "MD5": "3078c849418d9970de2706f244309b4b",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/curios-FORGE-1.15.2-2.0.2.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:curiouselytra:FORGE-1.15.2-2.0@jar",
+          "name": "Curious Elytra",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 26924,
+            "MD5": "4aa0ea199bb823e188e5c1fd87ed62f6",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/curiouselytra-FORGE-1.15.2-2.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:curiousshulkerboxes:FORGE-1.15.2-2.0@jar",
+          "name": "Curious Shulker Boxes",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 44870,
+            "MD5": "8dc13e2060702c2d9c277856dfec14b8",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/curiousshulkerboxes-FORGE-1.15.2-2.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:cyclepaintings:1.1@jar",
+          "name": "Cycle Paintings",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 6527,
+            "MD5": "5b2406fb086b5e39ab866799bd75eee7",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/cyclepaintings_1.15-1.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:deathquotes:1.15.1-1.0@jar",
+          "name": "DeathQuotes",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 19294,
+            "MD5": "2243390c68a65df0b1e948799a4b54ba",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/deathquotes-1.15.1-1.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:easyelytrato:1.2@jar",
+          "name": "Easy Elytra Takeoff",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 9163,
+            "MD5": "f3f24f5fbd3f3956e3a796ad5fe114ab",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/easyelytrato_1.15-1.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:followingvillagers:1.15.2-1.4.0@jar",
+          "name": "Following Villagers",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 30452,
+            "MD5": "e3d0715c10f84ae043ad121169214a92",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/followingvillagers-1.15.2-1.4.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:gravestone:1.17.3@jar",
+          "name": "Gravestone Mod",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 133465,
+            "MD5": "96a370910eb1311820e7fe417b8a0efa",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/gravestone-1.17.3.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:infernalmobs:1.15.1.1@jar",
+          "name": "Infernal Mobs",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 132124,
+            "MD5": "0fd90c3cc0289ceac91f1fbf3569da47",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/infernalmobs-1.15.1.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:inventorysorter:17.0.0@jar",
+          "name": "Simple Inventory Sorter",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 49879,
+            "MD5": "b203d2ac1d12732e6cb80e3dd0428c9a",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/inventorysorter-1.15.2-17.0.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:itemfilters:2.2.0.14@jar",
+          "name": "Item Filters",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 91683,
+            "MD5": "ef1f86353e5c94e2dc06308e8fc352f5",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/item-filters-2.2.0.14.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:jei:6.0.0.2@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 700499,
+            "MD5": "bffd55151e84f85de5479ab00c7882c1",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/jei-1.15.2-6.0.0.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:locatebiome:v1.0@jar",
+          "name": "LocateBiome",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 6680,
+            "MD5": "4c16ec3c223b743b82c7477eae62cd1e",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/locatebiome-1.15.2-v1.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:logprot:1.2@jar",
+          "name": "Logprot",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 11788,
+            "MD5": "ec841bf6acf3dd194c9bb610666e632a",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/logprot-1.15.1-1.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:randompatches:1.15.2-1.21.1.1@jar",
+          "name": "RandomPatches",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 203662,
+            "MD5": "4a49e5fbb2d42628120197bc76be62ef",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/randompatches-1.15.2-1.21.1.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:snm-1.1.1:0.0.0@jar",
+          "name": "Snm-1.1.1.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 79258,
+            "MD5": "bf86b43c35e4672017eb8b74dcfc08d9",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/snm-1.1.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:softerhayb:1.0@jar",
+          "name": "Softer Hay Bales",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4387,
+            "MD5": "24e47eef53cf81be1d546b658faa5543",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/softerhayb_1.15.2-1.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:swingthroughgrass:1.15.2-1.4.0@jar",
+          "name": "SwingThroughGrass",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 22255,
+            "MD5": "0e7ba44ecd0fe1a995a593ff87b3dc23",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/swingthroughgrass-1.15.2-1.4.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:torchmaster:2.1.1-rc0@jar",
+          "name": "Torchmaster",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 91794,
+            "MD5": "261f6a52759b2e8984cbea144930bb74",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/torchmaster-2.1.1-rc0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:torchslabmod:1.6.4@jar",
+          "name": "Torch Slab Mod TEST",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 365423,
+            "MD5": "6986896e3de829c49f8c114a2d0bf6ad",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/torchslabmod-1.15.1_v1.6.5.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:toughnessbar:5.0@jar",
+          "name": "Toughness Bar",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 12246,
+            "MD5": "d7bd0c46f8e700b9c3e0e23b5f63d426",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/toughnessbar-5.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:vilnames:2.0@jar",
+          "name": "Villager Names",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 69257,
+            "MD5": "bd0af9899b05024457db95bbc37f3bdc",
+            "url": "ftp://47.25.247.23:800/servers/joinnerds-1.15.2/forgemods/vilnames_1.15-2.0.jar"
+          }
+        }
+      ]
+    }
+  ]
+}
