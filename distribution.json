@@ -16,7 +16,7 @@
       "description": "Custom modded minecraft server",
       "icon": "https://raw.githubusercontent.com/Zedloc/distribution.json/master/logo.png",
       "version": "1.0.0",
-      "address": "joinnerds.apexmc.co",
+      "address": "147.135.97.69",
       "minecraftVersion": "1.15.2",
       "discord": {
         "shortId": "Discord",
