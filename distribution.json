@@ -298,8 +298,8 @@
           "name": "AnvilFix-1.1.2.jar",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 75366,
@@ -312,8 +312,8 @@
           "name": "AppleSkin",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 27324,
@@ -340,8 +340,8 @@
           "name": "Controller Support",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 94837,
@@ -354,8 +354,8 @@
           "name": "Controlling",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 36880,
@@ -368,8 +368,8 @@
           "name": "Custom Window Title",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 14587,
@@ -382,8 +382,8 @@
           "name": "DangerousStoneCutter",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7772,
@@ -396,8 +396,8 @@
           "name": "Doggy Talents",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 795820,
@@ -410,8 +410,8 @@
           "name": "Double Slabs",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 33532,
@@ -424,8 +424,8 @@
           "name": "Edit Sign",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 39545,
@@ -438,8 +438,8 @@
           "name": "Hardcore Revival",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 46606,
@@ -452,8 +452,8 @@
           "name": "JRFTL",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 13147,
@@ -466,8 +466,8 @@
           "name": "KleeSlabs",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 38372,
@@ -480,8 +480,8 @@
           "name": "Morpheus",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 24547,
@@ -508,8 +508,8 @@
           "name": "Quark",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4782601,
@@ -522,8 +522,8 @@
           "name": "Quark Oddities",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1852,
@@ -564,8 +564,8 @@
           "name": "Uppers",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 31143,
@@ -578,8 +578,8 @@
           "name": "Absent By Design Mod",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 444749,
@@ -592,8 +592,8 @@
           "name": "Alphabet Blocks",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 60833,
@@ -606,8 +606,8 @@
           "name": "Bedspreads",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 211336,
@@ -620,8 +620,8 @@
           "name": "Carpet Stairs Mod",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 170919,
@@ -634,8 +634,8 @@
           "name": "Conduits Prevent Drowned",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7374,
@@ -648,8 +648,8 @@
           "name": "Creative Fireworks",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 42022,
@@ -662,8 +662,8 @@
           "name": "Curio of Undying",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 26321,
@@ -676,8 +676,8 @@
           "name": "Curios API",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 183431,
@@ -690,8 +690,8 @@
           "name": "Curious Elytra",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 26924,
@@ -704,8 +704,8 @@
           "name": "Curious Shulker Boxes",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 44870,
@@ -718,8 +718,8 @@
           "name": "Cycle Paintings",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 6527,
@@ -732,8 +732,8 @@
           "name": "DeathQuotes",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 19294,
@@ -746,8 +746,8 @@
           "name": "Easy Elytra Takeoff",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 9163,
@@ -760,8 +760,8 @@
           "name": "Following Villagers",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 30452,
@@ -774,8 +774,8 @@
           "name": "Gravestone Mod",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 133465,
@@ -788,8 +788,8 @@
           "name": "Infernal Mobs",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 132124,
@@ -816,8 +816,8 @@
           "name": "Item Filters",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 91683,
@@ -830,8 +830,8 @@
           "name": "Just Enough Items",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 700499,
@@ -844,8 +844,8 @@
           "name": "LocateBiome",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 6680,
@@ -858,8 +858,8 @@
           "name": "Logprot",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 11788,
@@ -872,8 +872,8 @@
           "name": "RandomPatches",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 203662,
@@ -886,8 +886,8 @@
           "name": "Snm-1.1.1.jar",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 79258,
@@ -900,8 +900,8 @@
           "name": "Softer Hay Bales",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4387,
@@ -914,8 +914,8 @@
           "name": "SwingThroughGrass",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 22255,
@@ -928,8 +928,8 @@
           "name": "Torchmaster",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 91794,
@@ -942,8 +942,8 @@
           "name": "Torch Slab Mod TEST",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 365423,
@@ -956,8 +956,8 @@
           "name": "Toughness Bar",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 12246,
@@ -970,8 +970,8 @@
           "name": "Villager Names",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 69257,
