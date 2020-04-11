@@ -14,7 +14,7 @@
       "id": "joinnerds-1.15.2",
       "name": "Join Nerds Private Server",
       "description": "Custom modded minecraft server",
-      "icon": "ftp://47.25.247.23:800/logo.png",
+      "icon": "https://raw.githubusercontent.com/Zedloc/distribution.json/master/logo.png",
       "version": "1.0.0",
       "address": "joinnerds.apexmc.co",
       "minecraftVersion": "1.15.2",
