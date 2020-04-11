@@ -1,13 +1,5 @@
 {
   "version": "1.0.0",
-  "discord": {
-    "clientId": "630586481207017492",
-    "smallImageText": "Choir Bonding",
-    "smallImageKey": "seal-circle"
-},
-"java": {
-    "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
-},
   "rss": "https://joinnerds.weebly.com/1/feed",
   "servers": [
     {
@@ -23,7 +15,7 @@
         "largeImageText": "Choir Bonding Discord Server",
         "largeImageKey": "logo"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
@@ -298,8 +290,8 @@
           "name": "AppleSkin",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 27324,
@@ -326,8 +318,8 @@
           "name": "CleanView",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 9717,
@@ -340,8 +332,8 @@
           "name": "Client Tweaks",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 28338,
@@ -354,8 +346,8 @@
           "name": "Controller Support",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 94837,
@@ -368,8 +360,8 @@
           "name": "Controlling",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 36880,
@@ -382,8 +374,8 @@
           "name": "Mouse Tweaks",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 57609,
@@ -396,8 +388,8 @@
           "name": "ReAuth",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 25794,
@@ -424,8 +416,8 @@
           "name": "Simple Inventory Sorter",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 49879,
@@ -438,8 +430,8 @@
           "name": "Just Enough Items",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 700499,
@@ -452,8 +444,8 @@
           "name": "RandomPatches",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 203662,
