@@ -35,7 +35,7 @@
               "artifact": {
                 "size": 10795,
                 "MD5": "60754456a7f7240114c6ed47f3c4ce49",
-                "url": "ftp://47.25.247.23:800/repo/versions/1.15.2-forge-31.1.43/1.15.2-forge-31.1.43.json"
+                "url": "https://raw.githubusercontent.com/Zedloc/distribution.json/master/version.json"
               }
             },
             {
