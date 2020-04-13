@@ -3,7 +3,7 @@
   "rss": "https://joinnerds.weebly.com/1/feed",
   "servers": [
     {
-      "id": "joinnerds-1.15.2",
+      "id": "joinnerds-1.15",
       "name": "Join Nerds Private Server",
       "description": "Custom modded minecraft server",
       "icon": "https://raw.githubusercontent.com/Zedloc/distribution.json/master/logo.png",
